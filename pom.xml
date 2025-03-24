@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ed-cloud-parent</artifactId>
+        <groupId>io.github.edynasty</groupId>
+        <version>0.0.8</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <artifactId>ed-common-log-parent</artifactId>
+    <name>ed-common-log-parent</name>
+    <description>ed-log 公共组件</description>
+
+    <modules>
+        <module>ed-common-log-autoconfigure</module>
+        <module>ed-common-log-core</module>
+        <module>ed-common-log-db</module>
+        <module>ed-common-log-db-starter</module>
+        <module>ed-common-log-kafka</module>
+        <module>ed-common-log-kafka-starter</module>
+        <module>ed-common-log-logger</module>
+        <module>ed-common-log-logger-starter</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

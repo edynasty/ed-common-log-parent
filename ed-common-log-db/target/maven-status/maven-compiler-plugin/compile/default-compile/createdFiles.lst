@@ -1,0 +1,9 @@
+io/github/edynasty/common/log/db/service/impl/BaseEdSysLogServiceImpl.class
+io/github/edynasty/common/log/db/model/EdSysLogDetail.class
+io/github/edynasty/common/log/db/service/BaseEdSysLogDetailService.class
+io/github/edynasty/common/log/db/mapper/EdSysLogMapper.class
+io/github/edynasty/common/log/db/service/impl/BaseEdSysLogDetailServiceImpl.class
+io/github/edynasty/common/log/db/service/impl/DbLogServiceImpl.class
+io/github/edynasty/common/log/db/model/EdSysLog.class
+io/github/edynasty/common/log/db/mapper/EdSysLogDetailMapper.class
+io/github/edynasty/common/log/db/service/BaseEdSysLogService.class

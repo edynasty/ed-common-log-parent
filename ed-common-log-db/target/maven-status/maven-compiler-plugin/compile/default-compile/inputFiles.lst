@@ -1,0 +1,9 @@
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/mapper/EdSysLogDetailMapper.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/mapper/EdSysLogMapper.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/model/EdSysLog.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/model/EdSysLogDetail.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/service/BaseEdSysLogDetailService.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/service/BaseEdSysLogService.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/service/impl/BaseEdSysLogDetailServiceImpl.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/service/impl/BaseEdSysLogServiceImpl.java
+/Users/tangxingpeng/IdeaProjects/me/ed-common-log-parent/ed-common-log-db/src/main/java/io/github/edynasty/common/log/db/service/impl/DbLogServiceImpl.java
