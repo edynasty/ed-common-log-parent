@@ -1,0 +1,12 @@
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+logs/
+target/
+.txlcn/
+*.versionsBackup
+*.logs/
