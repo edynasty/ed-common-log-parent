@@ -1,6 +1,0 @@
-org.springframework.context.ApplicationContextInitializer=\
-io.github.edynasty.common.log.autoconfigure.logger.EdLogLogbackInitializer
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.github.edynasty.common.log.autoconfigure.EdLogAutoConfigure,\
-io.github.edynasty.common.log.autoconfigure.db.EdLogDbAutoConfigure,\
-io.github.edynasty.common.log.autoconfigure.kafka.EdLogKafkaAutoConfigure

@@ -1,3 +1,0 @@
-io.github.edynasty.common.log.autoconfigure.EdLogAutoConfigure
-io.github.edynasty.common.log.autoconfigure.db.EdLogDbAutoConfigure
-io.github.edynasty.common.log.autoconfigure.kafka.EdLogKafkaAutoConfigure
