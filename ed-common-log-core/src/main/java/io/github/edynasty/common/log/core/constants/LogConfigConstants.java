@@ -38,4 +38,9 @@ public interface LogConfigConstants {
      */
     String LOG_TYPE_DB = "db";
 
+    /**
+     * kafka topic
+     */
+    String LOG_KAFKA_TOPIC = "ed-log-topic";
+
 }

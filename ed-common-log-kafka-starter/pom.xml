@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>ed-common-log-parent</artifactId>
         <groupId>io.github.edynasty</groupId>
-        <version>0.0.8</version>
+        <version>0.0.9</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
     <artifactId>ed-common-log-kafka-starter</artifactId>
+    <version>0.0.9</version>
     <name>ed-common-log-kafka-starter</name>
     <description>公共日志组件(kafka)模块starter</description>
 

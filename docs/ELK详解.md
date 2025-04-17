@@ -13,13 +13,15 @@ docker run -d --name es -e "discovery.type=single-node" elasticsearch:7.17.16
 ```
 
 ```shell
-docker cp es:/usr/share/elasticsearch/config /home/docker/compose/ed/es/;
+mkdir -p /home/docker/compose/ed/es
 
-docker cp es:/usr/share/elasticsearch/data /home/docker/compose/ed/es/;
+docker cp es:/usr/share/elasticsearch/config /home/docker/compose/ed/es/config;
 
-docker cp es:/usr/share/elasticsearch/plugins /home/docker/compose/ed/es/;
+docker cp es:/usr/share/elasticsearch/data /home/docker/compose/ed/es/data;
 
-docker cp es:/usr/share/elasticsearch/logs /home/docker/compose/ed/es/;
+docker cp es:/usr/share/elasticsearch/plugins /home/docker/compose/ed/es/plugins;
+
+docker cp es:/usr/share/elasticsearch/logs /home/docker/compose/ed/es/logs;
 ```
 
 ```shell
@@ -83,6 +85,7 @@ xpack.security.transport.ssl.enabled: false
 #### 1.4.1 进入容器
 
 ```shell
+docker compose up -d es
 docker exec -it es bash
 ```
 
@@ -163,7 +166,8 @@ docker run -d --name kb kibana:7.17.16
 ```
 
 ```shell
-docker cp kb:/usr/share/kibana/config /home/docker/compose/ed/kibana/;
+mkdir -p /home/docker/compose/ed/kibana
+docker cp kb:/usr/share/kibana/config /home/docker/compose/ed/kibana/config;
 ```
 
 ```shell
@@ -226,11 +230,9 @@ docker run -d --name lg logstash:7.17.16
 ```shell
 mkdir -p /home/docker/compose/ed/logstash;
 
-docker cp lg:/usr/share/logstash/config/ /home/docker/compose/ed/logstash/config/;
+docker cp lg:/usr/share/logstash/config/ /home/docker/compose/ed/logstash/config;
 
-docker cp lg:/usr/share/logstash/pipeline/ /home/docker/compose/ed/logstash/pipeline/;
-
-docker cp lg:/usr/share/logstash/logs/ /home/docker/compose/ed/logstash/logs/;
+docker cp lg:/usr/share/logstash/pipeline /home/docker/compose/ed/logstash/pipeline;
 ```
 
 ```shell
