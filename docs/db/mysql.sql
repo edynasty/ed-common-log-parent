@@ -4,6 +4,7 @@ CREATE TABLE ed_sys_log (
                             parent_id BIGINT COMMENT '父日志ID',
                             name VARCHAR(255) COMMENT '日志名称',
                             log_type VARCHAR(50) COMMENT '操作类型',
+                            operation VARCHAR(255) COMMENT '操作描述',
                             user_id BIGINT COMMENT '用户ID',
                             user_name VARCHAR(64) COMMENT '用户名',
                             tenant_id BIGINT COMMENT '租户ID',
@@ -26,7 +27,6 @@ CREATE TABLE ed_sys_log (
 CREATE TABLE ed_sys_log_detail (
                                    id BIGINT PRIMARY KEY COMMENT '主键ID',
                                    log_id BIGINT COMMENT '关联主表ID',
-                                   operation VARCHAR(255) COMMENT '操作描述',
                                    request_args LONGTEXT COMMENT '请求参数',
                                    request_result LONGTEXT COMMENT '响应结果',
                                    error_msg LONGTEXT COMMENT '错误信息',

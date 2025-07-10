@@ -57,6 +57,10 @@ public class EdSysLog implements Serializable {
      */
     private Long traceId;
     /**
+     * 操作信息
+     */
+    private String operation;
+    /**
      * 执行时间（s）
      */
     private Double runTime;
@@ -121,6 +125,7 @@ public class EdSysLog implements Serializable {
         this.requestMethod = sysLogger.getRequestMethod();
         this.requestOs = sysLogger.getRequestOs();
         this.requestBrowser = sysLogger.getRequestBrowser();
+        this.operation = sysLogger.getOperation();
     }
 
 }
