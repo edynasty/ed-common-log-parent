@@ -5,12 +5,12 @@
     <parent>
         <artifactId>ed-common-log-parent</artifactId>
         <groupId>io.github.edynasty</groupId>
-        <version>0.0.9</version>
+        <version>0.0.10</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <packaging>jar</packaging>
     <artifactId>ed-common-log-db</artifactId>
-    <version>0.0.9</version>
+    <version>0.0.10</version>
     <name>ed-common-log-db</name>
     <description>log db 组件</description>
 
