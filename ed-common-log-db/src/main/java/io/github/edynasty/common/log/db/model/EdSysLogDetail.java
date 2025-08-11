@@ -28,10 +28,6 @@ public class EdSysLogDetail {
      */
     private Long logId;
     /**
-     * 操作信息
-     */
-    private String operation;
-    /**
      * 调用参数
      */
     private String requestArgs;
@@ -46,7 +42,6 @@ public class EdSysLogDetail {
 
     public EdSysLogDetail(SysLogger logger) {
         this.logId = logger.getId();
-        this.operation = logger.getOperation();
         this.requestArgs = logger.getRequestArgs();
         this.requestResult = logger.getRequestResult();
         this.errorMsg = logger.getErrorMsg();
